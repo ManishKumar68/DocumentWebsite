@@ -795,6 +795,7 @@ Enterprise-grade, cloud-native SaaS platform built with Java 17 and Spring Boot 
 - **Spring Boot 3.2** - Microservices foundation
 - **Spring Cloud** - Distributed system patterns
 - **Spring Data JPA** - ORM and database access
+- ** etc
 
 ### API & Communication
 - **Spring Web MVC** - RESTful API development
@@ -1029,12 +1030,12 @@ This is a blank template for you to document your own architecture. Edit this se
 \`\`\`
 aadhaar-analytics/
 ├── pom.xml
-├── src/main/java/com/aadhaar/
-│   ├── AadhaarAnalyticsApplication.java
+├── src/main/java/com/
+│   ├── AnalyticsApplication.etc
 │   ├── config/
-│   │   ├── SecurityConfig.java
-│   │   ├── KafkaConfig.java
-│   │   └── DatabaseConfig.java
+│   │   ├── SecurityConfig.etc
+│   │   ├── KafkaConfig.etc
+│   │   └── DatabaseConfig.etc
 │   ├── service/
 │   ├── controller/
 │   ├── entity/
@@ -1044,16 +1045,16 @@ aadhaar-analytics/
 │   ├── application-dev.yml
 │   ├── application-prod.yml
 │   └── db/migration/
-└── src/test/java/
+└── src/test/../
 \`\`\`
 
 ## Maven Configuration (pom.xml)
 
 \`\`\`xml
 <properties>
-  <java.version>17</java.version>
-  <spring-boot.version>3.2.0</spring-boot.version>
-  <spring-cloud.version>2023.0.0</spring-cloud.version>
+  <etc.version>17</java.version>
+  <etc.version>3.2.0</spring-boot.version>
+  <etc.version>2023.0.0</spring-cloud.version>
 </properties>
 
 <dependencyManagement>
@@ -2660,7 +2661,7 @@ volumes:
                     <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100 uppercase tracking-tight">Project Overview</h3>
                   </div>
                   <p className="text-slate-600 dark:text-slate-400 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-6 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm">
-                    Welcome to the <strong>SaaS Documentation Hub</strong>, a high-performance workspace designed by <strong>Manish Kumar</strong>. This platform allows teams to build, organize, and manage complex architecture guides with a premium, user-friendly interface.
+                    Welcome to the <strong>Documentation Hub</strong>, a high-performance workspace designed by <strong>Manish Kumar</strong>. This platform allows teams to build, organize, and manage complex architecture guides with a premium, user-friendly interface.
                   </p>
                 </section>
 
